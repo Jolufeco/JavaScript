@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: brown;
+    font: normal normal 1em "Arial", sans-serif;
+    color: rgb(115, 20, 20);
+}
+
+
+h1 {
+    text-align:center;
+}
+
+
+
+div {
+    background-color: rgb(115, 20, 20);
+    color: brown;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+}
+
