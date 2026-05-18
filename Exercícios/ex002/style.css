@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+}
+
+h1 {
+   text-align: center;
+}
+
+p {
+    text-align: justify;
+}
