@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <h1>
+        botões interativos
+    </h1>
+    <div id="1" onmousedown="pressionar()">
+botão 1
+    </div>
+    <div id="2">
+botão 2
+    </div>
+    <div id="3">
+botão 3
+    </div>
+<script>
+
+
+    function pressionar (){
+        var a = document.getElementById("1");
+        a.innerText = "clicou";
+    }
+</script>
+
+</body>
+</html>
