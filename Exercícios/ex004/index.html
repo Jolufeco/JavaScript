@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Calculador de Somas
+    </h1>
+    <input type="number" id="n1">
+    <input type="number" id="n2">
+<button id="botao" onclick="clicar()"> Somar</button>
+    <div id="soma"> Resultado</div>
+
+    <script>
+        function clicar() {
+          var a = document.getElementById('n1')
+          var b = document.getElementById('n2')
+          var s = document.getElementById('soma')
+            var numb1 = Number(a.value)
+            var numb2 = Number(b.value)
+            var res = numb1 + numb2 
+
+            s.innerText = `A soma de ${numb1} e ${numb2} é igual a ${res}`
+
+            
+            
+            
+        }
+
+    </script>
+</body>
+</html>

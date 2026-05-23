@@ -1,0 +1,45 @@
+body {
+    font: normal bold 1em arial;
+    background-color: rgb(24, 205, 24);
+    text-align: center;
+}
+
+h1 {
+    color: var(--font-color2);
+}
+
+button {
+    color: var(--font-color1);
+    border-radius: 5px;
+    border: none;
+    background-color: darkgreen;
+    height: 25px;
+}
+
+:root {
+    --font-color1 : rgb(24, 205, 24);
+    --font-color2 : darkgreen;
+}
+
+
+input {
+    border: none;
+    border-radius: 5px;
+    color: var(--font-color1);
+    background-color: var(--font-color2);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+div {
+    color: var(--font-color1);
+    background-color: var(--font-color2);
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+}
