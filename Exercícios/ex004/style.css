@@ -1,6 +1,6 @@
 body {
     font: normal bold 1em arial;
-    background-color: rgb(24, 205, 24);
+    background-color: var(--font-color1);
     text-align: center;
 }
 
@@ -12,13 +12,13 @@ button {
     color: var(--font-color1);
     border-radius: 5px;
     border: none;
-    background-color: darkgreen;
+    background-color: var(--font-color2);
     height: 25px;
 }
 
 :root {
-    --font-color1 : rgb(24, 205, 24);
-    --font-color2 : darkgreen;
+    --font-color1 : rgb(199, 205, 24);
+    --font-color2 : rgb(83, 93, 5);
 }
 
 
