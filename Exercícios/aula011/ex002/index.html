@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>
+        digite seu pais de origem.
+    </p>
+    <input type="text" id="Textp">
+    <button onclick="clique()">Clique</button>
+    <p id="res">Resultando</p>
+
+    <script>
+        function clique() {
+                    var a = document.getElementById('Textp')
+                    var b = document.getElementById('res')
+                    var text = a.value;
+
+                    if (text == 'Brasil') {
+                        b.innerHTML = `Você é Brasileiro`
+                    } else {
+                        b.innerHTML = `Você é Estrangeiro`
+                    }
+                   
+
+
+        }
+    </script>
+
+</body>
+</html>
