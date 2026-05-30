@@ -1,0 +1,44 @@
+body {
+    background-color: cornflowerblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: aliceblue;
+    width: 500px;
+    margin: auto;
+    border: 1px ;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section {
+    background-color: aliceblue;
+    width: 500px;
+    margin: auto;
+    margin-top: px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    border: 1px solid rgb(24, 32, 53);
+}
+
+
+
+input {
+    border-radius: 10px;
+    border: 2px solid lightblue;
+}
+
+input:hover {
+    background-color: beige;
+    border: 2px solid black;
+
+}
+#Botao {
+    display: block;
+    margin: auto;
+    padding: 10px 50px 10px;
+    font-size: 15px;  
+    font-weight: 600;  
+}

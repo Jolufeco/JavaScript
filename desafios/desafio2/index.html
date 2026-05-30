@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de identidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Verificador de Identidade
+        </h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Nome:</p>
+            <input type="text" id="Nome">
+        </div>
+        <div>
+            <p>Idade:</p>
+            <input type="text" id="idade">
+        </div>
+        <div>
+            <p>Sexo:</p>
+            <input type="radio" name="bts" id="sexo" value="Masculino" checked>
+            <label for="Masculino">Masculino</label>
+
+            <input type="radio" name="bts" id="sexo" value="Feminino">
+            <label for="Feminino">Feminino</label>
+        </div>
+        <div id="dados">
+
+
+        </div>
+        <div id="Verif">
+            <input type="button" value="Verficar" id="Botao" onclick="Verificar()">
+        </div>
+
+    </section>
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
