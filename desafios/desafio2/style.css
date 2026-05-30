@@ -5,13 +5,15 @@ body {
 
 header {
     background-color: rgb(255, 255, 255);
-    width: 500px;
+    min-width: 250px;
+    max-width: 600px;
     margin: auto;
     margin-bottom: 10px;
     border: 1px ;
     border-radius: 10px;
     text-align: center;
     border: 1px solid black;
+    box-shadow: 2px 2px 2px;
 }
 
 section {
