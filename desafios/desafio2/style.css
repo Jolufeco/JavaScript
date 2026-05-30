@@ -14,9 +14,9 @@ header {
 
 section {
     background-color: aliceblue;
-    width: 500px;
+    min-width: 250px;
+    max-width: 600px;
     margin: auto;
-    margin-top: px;
     padding: 5px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px;
