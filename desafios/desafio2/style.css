@@ -42,3 +42,9 @@ input:hover {
     font-size: 15px;  
     font-weight: 600;  
 }
+
+
+img {
+    display: block;
+    margin: auto;
+}
