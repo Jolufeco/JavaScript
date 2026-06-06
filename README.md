@@ -6,5 +6,7 @@
 </p>
 <p>
   <a href="https://jolufeco.github.io/JavaScript/desafios/desafio2/">Desafio2</a>
-
+</p>
+<p>
+  <a href="https://jolufeco.github.io/JavaScript/desafios/desafio3/"> Desafio3</a>
 </p>
