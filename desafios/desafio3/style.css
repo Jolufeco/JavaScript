@@ -7,6 +7,22 @@ body {
     background-color: var(--cor2);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    margin: 10px;
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    border-radius: 10px;
+    min-width: none;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
 h2 {
     font-size: 20px;
 }

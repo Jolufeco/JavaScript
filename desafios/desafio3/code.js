@@ -10,7 +10,7 @@ function calculo() {
 
     } else {
         
-        local.innerHTML = 'contando: <br>'
+        local.innerHTML = '<strong>contando: </strong> <br>'
 
         let num1 = Number(n1.value);
         let num2 = Number(n2.value);
