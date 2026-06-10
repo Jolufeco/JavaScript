@@ -1,7 +1,6 @@
 function clicar() {
     var tab = document.getElementById('setm')
     var n1 = document.getElementById('n1')
-    var secao = document.getElementById('secao')
     
     if (n1.value == 0) {
         window.alert('Por Favor, digite um outro número.')
@@ -11,10 +10,17 @@ function clicar() {
         for (c = 1; c <= 10; c++) {
             var a = document.createElement('option')
             a.text = `${num} x ${c} = ${c*num} `
-        setm.appendChild(a)
-            secao.style.height = '435px'
-
+            setm.appendChild(a)
         }
     }
-
+    
 }
+
+var secao = document.getElementById('secao')
+function mouseentra() {
+        secao.style.height = '435px'
+    }
+
+    function mousesai() {
+        secao.style.height = '131.2px'
+    }
