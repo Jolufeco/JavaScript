@@ -29,9 +29,9 @@ h2 {
 }
 
 :root {
-   --cor1: rgb(140, 11, 37);
-   --cor2: crimson;
-   --cor3:rgb(191, 21, 55);
+   --cor1: rgb(11, 80, 140);
+   --cor2: rgb(20, 170, 220);
+   --cor3:rgb(35, 86, 226);
 }
 
 section {
@@ -45,11 +45,12 @@ section {
     margin: auto;
 }
 
-input {
+input, select, option {
     background-color: var(--cor2);
     border: none;
     border-radius: 5px;
     color: var(--cor1);
+    margin: 10px;
 }
 
 input::-webkit-outer-spin-button,
@@ -60,6 +61,7 @@ input::-webkit-inner-spin-button {
 
 input:hover {
     background-color: var(--cor3);
+    color: white;
 }
 
 #verificar {
