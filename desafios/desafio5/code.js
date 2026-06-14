@@ -45,13 +45,13 @@ function finalizar() {
             
         }
 
-        let média = soma % number.length
+        let média = soma / number.length
 
         mensa.innerHTML = `Essa lista possui ${number.length} item(s). <br> `
         mensa.innerHTML += `O maior número nessa lista é ${maior}. <br>`
         mensa.innerHTML += `O menor número nessa lista é ${menor}. <br>`
         mensa.innerHTML += `A soma desses números nessa lista é ${soma}. <br>`
-         mensa.innerHTML += `A média desses números nessa lista é ${média}. <br>`
+         mensa.innerHTML += `A média desses números nessa lista é ${média.toFixed(5)}. <br>`
         msg.appendChild(mensa)  
         
     }
