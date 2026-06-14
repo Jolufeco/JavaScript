@@ -1,0 +1,78 @@
+
+
+* {
+    user-select: none;
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    border-radius: 10px;
+    min-width: none;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+:root {
+   --cor1: rgb(11, 145, 69);
+   --cor2: rgb(20, 220, 63);
+   --cor3:rgb(19, 137, 29);
+}
+
+section {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 5px 5px 10px 10px;
+    color: var(--cor2);
+    text-align: center;
+    min-width: none;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+input, select, option {
+    background-color: var(--cor2);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor1);
+    margin: 10px;
+    text-align: center;
+} 
+
+select {
+    width: 200px;
+    height: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:hover {
+    background-color: var(--cor3);
+    color: white;
+}
+
+#verificar {
+    color: var(--cor1);
+    font-weight: 900;
+    margin: 10px;
+}
