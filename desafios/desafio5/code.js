@@ -4,7 +4,7 @@ var mensa = document.createElement('p')
 
 function clicar() {
     var n1 = document.getElementById('n1')
-    var num = n1.value
+    var num = Number(n1.value)
     if (num <= 0) {
     alert('parece que deu algum erro. por favor, digite um número.')
 } else {
